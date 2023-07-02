@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>App Name - @yield('title')</title>
+    <title>@yield('title')</title>
     @vite('resources/css/app.css')
+    <script src=" {{ asset('../resources/js/lib.js') }}"></script>
 
 </head>
 
@@ -41,6 +42,7 @@
     <footer class="mx-auto mt-0 w-full max-w-container px-4 sm:px-6 lg:px-8 bg-gray-300">
         @yield('footer')
     </footer>
+
 </body>
 
 </html>
