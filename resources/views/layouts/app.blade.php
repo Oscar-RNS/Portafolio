@@ -7,13 +7,18 @@
 
     <title>@yield('title')</title>
     @vite('resources/css/app.css')
-    <script src=" {{ asset('../resources/js/lib.js') }}"></script>
-
+     <script type="module">
+     import toggle from '../resources/js/lib.js'
+      const menuBotton = document.getElementById('toggle');
+      menuBotton.addEventListener("click", function() {
+        toggle()
+      });
+     </script>
 </head>
 
 <body>
 
-    <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+    {{--<div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
         @if (Route::has('login'))
             <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                 @auth
@@ -31,7 +36,7 @@
                 @endauth
             </div>
         @endif
-    </div>
+    </div>--}}
 
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         @yield('navbar')
