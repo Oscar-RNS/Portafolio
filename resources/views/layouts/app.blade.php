@@ -4,17 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>@yield('title')</title>
-    @vite('resources/css/app.css')
-     <script type="module">
-     import toggle from '../resources/js/lib.js'
-      const menuBotton = document.getElementById('toggle');
-      menuBotton.addEventListener("click", function() {
-        toggle()
-      });
-     </script>
-</head>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+ </head>
 
 <body>
 
