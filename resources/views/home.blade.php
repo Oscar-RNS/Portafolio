@@ -31,10 +31,10 @@ aria-hidden="true">
     </div>
     <div
         class="mt-2 grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-yellow-500 sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="https://www.flaticon.es/">Flaticon<span aria-hidden="true">&rarr;</span></a>
+        <a href="https://www.flaticon.es">Flaticon<span aria-hidden="true">&rarr;</span></a>
         <a href="https://tailwindcss.com">Tailwaind CSS<span aria-hidden="true">&rarr;</span></a>
         <a href="https://getbootstrap.com">Bootstrap <span aria-hidden="true">&rarr;</span></a>
-        <a href="https://get.foundation">Foundation <span aria-hidden="true">&rarr;</span></a>
+        <a href="https://demos.krajee.com">Krajee Yii Extensions - Kartik <span aria-hidden="true">&rarr;</span></a>
     </div>
     <dl class="mt-10 grid grid-cols-1 gap-8 sm:mt-12 sm:grid-cols-2 lg:grid-cols-4">
         <div class="flex flex-col-reverse">
