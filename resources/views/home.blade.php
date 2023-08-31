@@ -20,8 +20,8 @@ aria-hidden="true">
 <div class="mx-auto max-w-2xl lg:mx-0">
     <h2 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Portafolio Personal</h2>
     <p class="mt-5 text-lg leading-8 text-gray-300">
-        Hola, bienvenido a mi portafolio de mini proyectos. Próximamente aquí encontrarás algunos
-        de mis proyectos personales utilizando tecnologias antes mencionadas. Son pequeñas
+        Hola, bienvenido a mi portafolio personal. Próximamente aquí encontrarás algunos
+        de mis proyectos personales utilizando tecnología de nueva generación. Son pequeñas
         tareas que representan situaciones novedosas a proyectos reales.
     </p>
 </div>
